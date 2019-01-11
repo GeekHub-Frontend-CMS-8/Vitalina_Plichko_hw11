@@ -907,6 +907,9 @@ a {
   .form__input__textarea {
     max-width: 100%; } }
 
+.blog1__background {
+  background-color: #e3e3e3; }
+
 .top_section {
   background: url("../img/blog_topSection/Image.png") no-repeat center;
   background-size: cover; }
@@ -997,9 +1000,18 @@ a {
     color: #fff;
     transition: 0.5s; }
 
+.blog2 {
+  background: url("../img/blogWithSidebar/background.png") no-repeat center;
+  background-size: cover; }
+
+.blog2__main {
+  background-color: #e3e3e3;
+  padding-top: 85px; }
+
 .container_for_blog-with-sidebar {
   max-width: 820px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #e3e3e3; }
 
 .post__item__for__blog-with-sidebar {
   padding-bottom: 50px; }
