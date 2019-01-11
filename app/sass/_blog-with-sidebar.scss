@@ -3,17 +3,33 @@
   background-size: cover;
 }
 
+//.blog2__wrapper__for__main__and__aside{
+//  display: flex;
+//}
+
 .blog2__main{
   background-color: #e3e3e3;
   padding-top: 85px;
+
 }
+
+.blog2__aside{
+  float: right;
+}
+
 
 .container_for_blog-with-sidebar{
   max-width: 820px;
   margin: 0 auto;
   background-color: #e3e3e3;
+  border-bottom: 1px solid #3e3d3d;
 }
 
 .post__item__for__blog-with-sidebar{
   padding-bottom: 50px;
+}
+
+.latest__post__item{
+  display: flex;
+  flex-direction: row;
 }
