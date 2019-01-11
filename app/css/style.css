@@ -1031,3 +1031,16 @@ a {
 .post__with__sidebar {
   background: url("../img/postWithSidebar/background.png") no-repeat center;
   background-size: cover; }
+
+.post__content {
+  background-color: #e3e3e3; }
+
+.post__content__text__in__ramka {
+  padding: 70px 60px;
+  border: 2px solid #a8a8a8;
+  color: #3e3d3d;
+  font-family: "Crimson Text", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 25px; }
