@@ -1,0 +1,162 @@
+.history {
+  background-color: #ededed;
+}
+
+.history__text {
+  text-align: center;
+}
+
+.timeline__year {
+  text-align: center;
+  border: 2px solid #3e3d3d;
+  border-radius: 100%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e3d3d;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: #3e3d3d;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: 5px;
+}
+
+.container__timeline {
+  width: 50%;
+  padding: 10px 25px; /*10 25 were*/
+  position: relative;
+}
+
+.content:hover {
+  background-color: #3e3d3d;
+  color: #e4e4e4;
+  transition: 0.3s;
+}
+
+.container__timeline:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3e3d3d;
+  right: 39px;
+  z-index: 9;
+  top: 15px;
+}
+
+.content {
+  background: transparent;
+  max-width: 480px;
+  padding: 20px 30px;
+  border: 1px solid #3e3d3d;
+}
+
+.history__content__h4{
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.history__content__date{
+  padding-top: 10px;
+  font-family: Montserrat,sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.history__content__paragraph{
+  padding-top: 30px;
+  font-family: "Charm",cursive;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.31px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.right:after {
+  left: 0;
+}
+
+.left:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #3e3d3d;
+  right: 50px;
+  top: 10px;
+}
+
+.right:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: #3e3d3d;
+  left: 5px;
+  top: 10px;
+}
+
+.history__light {
+  padding-left: 564px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1170px) {
+  .timeline:after {
+    left: 20px;
+  }
+  .container__timeline:after {
+    left: 20px;
+  }
+  .container__timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+  .right {
+    left: 0;
+  }
+  .left:before, .right:before {
+    left: 50px;
+    border: 10px solid transparent;
+    border-right-color: #3e3d3d;
+  }
+  .timeline__year {
+    margin: 0;
+  }
+  .history__light {
+    padding: 0 0 80px 0;
+  }
+}
+

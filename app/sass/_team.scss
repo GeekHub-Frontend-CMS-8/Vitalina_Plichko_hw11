@@ -1,0 +1,21 @@
+.team {
+  background: #ededed url("../img/team/Image.png") no-repeat center;
+  background-size: cover;
+}
+
+.team__photos {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.team__photos__element {
+  padding-right: 30px;
+}
+
+@media(max-width: 940px) {
+  .team__photos {
+    flex-wrap: wrap;
+  }
+}

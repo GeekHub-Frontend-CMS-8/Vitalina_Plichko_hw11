@@ -1,0 +1,93 @@
+.portfolio__buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+
+.container2 {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  //flex-wrap: wrap;
+  padding: 0;
+  max-height: 790px;
+  background: #000;
+}
+
+.portfolio__btn {
+  margin-right: 5px;
+  border: 2px solid #3e3d3d;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  transition: 0.7s;
+  &:hover {
+    background: #3e3d3d;
+    color: #ffffff;
+  }
+}
+
+.b_all {
+  padding: 10px 20px;
+}
+
+.b_website {
+  padding: 10px 20px;
+}
+
+.b_broshures {
+  padding: 10px 30px;
+}
+
+.b_logos {
+  padding: 10px 20px;
+}
+
+.photo1__size {
+  max-height: 417px;
+  min-width: 400px;
+}
+
+.photo3__size {
+  max-height: 305px;
+  min-width: 400px;
+}
+
+.photo5__size {
+  max-height: 230px;
+  min-width: 400px;
+}
+
+@media(max-width: 1500px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-bottom: 300px;
+  }
+  .block1__photo,
+  .block2__photo,
+  .block3__photo,
+  .block4__photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+  }
+  .photo1__size,
+  .photo3__size,
+  .photo5__size,
+  .photo8, .photo6
+  {
+    display: none;
+  }
+  .portfolio__buttons{
+    display: none;
+  }
+}
+
+
+
+
+
