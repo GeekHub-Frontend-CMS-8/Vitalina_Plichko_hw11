@@ -17,3 +17,22 @@
   font-style: italic;
   line-height: 25px;
 }
+
+.post__social__wrapper{
+  text-align: center;
+  padding: 20px 0;
+margin-bottom: 60px;
+  border-top: 1px solid #b7b7b7;
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.post__social__item{
+  //background-color: #818181;
+  padding: 10px;
+  margin-right: 5px;
+  color: #818181;
+  border: 1px solid #818181;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
