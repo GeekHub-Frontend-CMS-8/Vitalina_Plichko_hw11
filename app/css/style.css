@@ -844,7 +844,7 @@ a {
   text-transform: uppercase; }
 
 .contacts-section__form {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   flex-grow: 1;
   display: flex;
   flex-flow: row wrap;
@@ -899,7 +899,7 @@ a {
   .contacts-section__main-center-wrapper {
     flex-wrap: nowrap; }
   .contacts-section__form {
-    margin: 17px 0 0 17px; } }
+    margin: 17px 0 10px 17px; } }
 
 @media only screen and (min-width: 1170px) {
   .form__input__text {
@@ -949,7 +949,7 @@ a {
 
 .post__item {
   max-width: 370px;
-  padding-bottom: 60px; }
+  padding-bottom: 30px; }
 
 .posts__h3 {
   padding-top: 40px;
