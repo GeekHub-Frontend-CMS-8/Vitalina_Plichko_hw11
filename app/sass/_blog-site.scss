@@ -1,66 +1,70 @@
-.top_section{
+.top_section {
   background: url("../img/blog_topSection/Image.png") no-repeat center;
   background-size: cover;
 }
 
-.text__top_section{
+.text__top_section {
   text-align: center;
 }
 
-.blog__top-section__h1{
+.blog__top-section__h1 {
   padding-top: 110px;
   padding-bottom: 20px;
   color: #ffffff;
-  font-family: Charm,cursive;
+  font-family: Charm, cursive;
   font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-.blog__in__home{
+.blog__in__home {
   padding-top: 30px;
   padding-bottom: 120px;
   display: flex;
   justify-content: center;
-  li{
+  li {
     padding-right: 10px;
     color: #ffffff;
-    font-family: "Crimson Text",sans-serif;
+    font-family: "Crimson Text", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    a{
+    li:hover {
+      color: #292929;
+    }
+    a {
       text-decoration: none;
       color: #ffffff;
-      font-family: "Crimson Text",sans-serif;
+      font-family: "Crimson Text", sans-serif;
       font-size: 14px;
       font-weight: 400;
     }
+
   }
 }
 
-.posts{
+.posts {
   padding-top: 85px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.post__item{
+.post__item {
   max-width: 370px;
   padding-bottom: 30px;
 }
 
-.posts__h3{
+.posts__h3 {
   padding-top: 40px;
   padding-bottom: 15px;
   color: #3e3d3d;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 18px;
 }
 
-.posts__date{
+.posts__date {
   padding-bottom: 20px;
   color: #3e3d3d;
   font-family: "Crimson Text", cursive;
@@ -68,22 +72,22 @@
   font-style: italic;
 }
 
-.group__for__color{
+.group__for__color {
   padding: 15px 0;
   color: #818181;
 }
 
-.blog__post__active{
+.blog__post__active {
   display: flex;
   border-top: 1px solid #b7b7b7;
   border-bottom: 1px solid #b7b7b7;
 }
 
-.post__number{
+.post__number {
   padding: 0 10px;
 }
 
-.blog__paragraph{
+.blog__paragraph {
   padding: 30px 0;
   color: #3e3d3d;
   font-family: "Crimson Text", sans-serif;
@@ -92,7 +96,12 @@
   line-height: 25px;
 }
 
-.blog__button{
+.blog__button {
   padding: 15px 30px;
   border: 2px solid #3e3d3d;
+  &:hover{
+    background-color: #424244;
+    color: #fff;
+    transition: 0.5s;
+  }
 }
