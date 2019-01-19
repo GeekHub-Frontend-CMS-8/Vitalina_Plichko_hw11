@@ -10,6 +10,44 @@
   padding-bottom: 70px;
 }
 
+.photos__item__h3{
+  color: #3e3d3d;
+  font-family: Montserrat,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.team__photos__item-hover{
+  position: absolute;
+  padding: 80px 90px;
+  margin: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgba(246, 246, 246, 0.83);
+  opacity: 0;
+  transition: 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.team__photos__item-hover{
+  text-align: left;
+
+}
+
+.photos__item__paragraph{
+  max-width: 145px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #515151;
+  color: #3e3d3d;
+  font-family: "Crimson Text",cursive;
+  font-size: 14px;
+  font-style: italic;
+}
+
 .team__photos__element {
   padding-right: 30px;
 }
